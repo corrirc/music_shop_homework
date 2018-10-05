@@ -21,8 +21,18 @@ public class SaxaphoneTest {
     }
 
     @Test
+    public void instrumentName() {
+        assertEquals("sax1", saxaphone.getName());
+    }
+
+    @Test
     public void testCanPlay() {
         assertEquals("saxanoise", saxaphone.play());
+    }
+
+    @Test
+    public void instrumentPrice() {
+        assertEquals(200.00, saxaphone.getPrice(), 00.1);
     }
 }
 
