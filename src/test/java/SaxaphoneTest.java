@@ -11,7 +11,7 @@ public class SaxaphoneTest {
 
     @Before
     public void before() {
-        saxaphone = new Saxaphone(InstrumentFamily.BRASS, "sax1" , 200.00);
+        saxaphone = new Saxaphone(InstrumentFamily.BRASS, "sax1" , 200.00, 300.00);
     }
 
 
@@ -33,6 +33,11 @@ public class SaxaphoneTest {
     @Test
     public void instrumentPrice() {
         assertEquals(200.00, saxaphone.getPrice(), 00.1);
+    }
+
+    @Test
+    public void markupPrice() {
+        assertEquals(300.00, saxaphone.getMarkup(), 00.1);
     }
 }
 
