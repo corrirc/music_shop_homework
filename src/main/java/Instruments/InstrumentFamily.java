@@ -1,6 +1,6 @@
-package Enum;
+package Instruments;
 
-public enum Family {
+public enum InstrumentFamily {
 
     BRASS("Brass"),
     STRINGS("Strings"),
@@ -8,7 +8,7 @@ public enum Family {
 
     private String family;
 
-    Family(String family) {
+    InstrumentFamily(String family) {
         this.family = family;
     }
 
