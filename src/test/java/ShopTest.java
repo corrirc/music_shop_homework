@@ -21,4 +21,10 @@ public class ShopTest {
     public void stockStartsEmpty() {
         assertEquals(0, shop.stockCount());
     }
+
+    @Test
+    public void canAddToStock() {
+        shop.add(saxaphone);
+        assertEquals(1, shop.stockCount());
+    }
 }

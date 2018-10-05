@@ -17,4 +17,9 @@ public class Shop {
     public int stockCount() {
         return this.stock.size();
     }
+
+    public void add(ISell item){
+        this.stock.add(item);
+    }
+
 }

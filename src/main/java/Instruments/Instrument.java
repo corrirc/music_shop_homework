@@ -1,8 +1,9 @@
 package Instruments;
 
 import Interfaces.IPlay;
+import Interfaces.ISell;
 
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
 
         private InstrumentFamily instrumentFamily;
         private String name;
