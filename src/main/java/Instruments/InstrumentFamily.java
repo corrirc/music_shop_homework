@@ -4,7 +4,7 @@ public enum InstrumentFamily {
 
     BRASS("Brass"),
     STRINGS("Strings"),
-    PERCUSSION("percussion");
+    PERCUSSION("Percussion");
 
     private String family;
 

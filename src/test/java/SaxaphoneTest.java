@@ -11,7 +11,7 @@ public class SaxaphoneTest {
 
     @Before
     public void before() {
-        saxaphone = new Saxaphone(InstrumentFamily.BRASS, "sax1" , 200.00, 300.00);
+        saxaphone = new Saxaphone((InstrumentFamily.BRASS), "sax1" , 200.00, 300.00);
     }
 
 
