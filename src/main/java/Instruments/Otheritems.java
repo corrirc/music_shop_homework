@@ -34,4 +34,11 @@ public abstract class Otheritems implements ISell {
     }
 
 
+    public int getQuantity() {
+        return this.quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }
