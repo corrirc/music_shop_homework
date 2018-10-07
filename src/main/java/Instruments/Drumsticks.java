@@ -7,5 +7,7 @@ public class Drumsticks extends Otheritems{
         super(name, price, markup, quantity);
     }
 
-
+    public double calculateMarkup() {
+        return 0;
+    }
 }

@@ -6,7 +6,7 @@ public abstract class Otheritems implements ISell {
 
     private String name;
     private double price;
-    private double markup;
+    public double markup;
     private int quantity;
 
 

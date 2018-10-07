@@ -14,4 +14,7 @@ public class Saxaphone extends Instrument implements IPlay, ISell {
     }
 
 
+    public double calculateMarkup() {
+        return 0;
+    }
 }

@@ -7,6 +7,10 @@ public class Sheetmusic extends Otheritems {
         }
 
 
+
+    public double calculateMarkup() {
+        return 0;
     }
+}
 
 

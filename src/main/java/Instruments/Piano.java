@@ -13,4 +13,8 @@ public class Piano extends Instrument implements IPlay, ISell {
         return "pianonoise";
     }
 
+
+    public double calculateMarkup() {
+        return 0;
+    }
 }
