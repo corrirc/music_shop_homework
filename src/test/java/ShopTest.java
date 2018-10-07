@@ -27,4 +27,10 @@ public class ShopTest {
         shop.add(saxaphone);
         assertEquals(1, shop.stockCount());
     }
+
+    @Test
+    public void canRemoveItemFromStock() {
+        shop.removeStock(saxaphone);
+        assertEquals(0, shop.stockCount());
+    }
 }
